@@ -4,11 +4,11 @@ import 'zone.js/dist/zone-microtask';
 import {bootstrap} from 'angular2/platform/browser';
 import {provide} from 'angular2/core';
 import {HTTP_PROVIDERS} from 'angular2/http';
+import {ROUTER_PROVIDERS} from 'angular2/router';
 import {
-  ROUTER_PROVIDERS,
   Location,
   LocationStrategy,
-  HashLocationStrategy} from 'angular2/router';
+  HashLocationStrategy} from 'angular2/platform/common';
 import {App} from './src/app';
 
 bootstrap(App, [
