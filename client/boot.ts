@@ -1,5 +1,5 @@
 import 'core-js';
-import 'zone.js/dist/zone-microtask';
+import 'zone.js/dist/zone';
 
 import {bootstrap} from 'angular2/platform/browser';
 import {provide} from 'angular2/core';
