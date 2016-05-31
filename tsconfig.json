@@ -14,7 +14,7 @@
   ],
   "filesGlob": [
     "client/**/*.ts",
-    "typings/browser.d.ts"
+    "typings/index.d.ts"
   ],
   "atom": {
     "rewriteTsconfig": false
