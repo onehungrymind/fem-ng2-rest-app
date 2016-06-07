@@ -41,8 +41,8 @@ export class ItemDetail {
   @Output() saved = new EventEmitter();
   @Output() cancelled = new EventEmitter();
 
-  @Input() set item(value: Item){
-    if (value) this.originalName = value.name;
-    this.selectedItem = Object.assign({}, value);
+  @Input() set item(item: Item){
+    if (item) this.originalName = item.name;
+    this.selectedItem = Object.assign({}, item);
   }
 }
